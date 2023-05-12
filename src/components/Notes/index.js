@@ -50,7 +50,8 @@ const Notes = () => {
           placeholder="Title"
           value={title}
           onChange={onChangeTitle}
-        />
+        />{' '}
+        <br />
         <NoteInput
           columns="5"
           placeholder="Take a Note..."
